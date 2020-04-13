@@ -1,0 +1,8 @@
+./tmp_files/tmp_1586761283.cpp: In member function ‘std::string Solution::function()’:
+./tmp_files/tmp_1586761283.cpp:9:1: error: ‘reutrn’ was not declared in this scope
+ reutrn string("Hello World!");
+ ^~~~~~
+./tmp_files/tmp_1586761283.cpp:9:1: note: suggested alternative: ‘extern’
+ reutrn string("Hello World!");
+ ^~~~~~
+ extern

@@ -3,7 +3,7 @@ CC=g++
 DEBUG=-g
 VERSION=-std=c++11
 LINK_LIBRARY=-lpthread -lctemplate -ljsoncpp
-CTEMPLATE_PATH=-L /home/adam_xi/program/OnlineJudge/src/ThirdPartLibForCpp/el7.x86_64/third_part/lib
+CTEMPLATE_PATH=-L /root/workspace/OnlineJudge/src/ThirdPartLibForCpp/el7.x86_64/third_part/lib
 
 .PHONY:$(BIN)
 $(BIN):oj_server.cpp
@@ -12,3 +12,7 @@ $(BIN):oj_server.cpp
 .PHONY:clean
 clean:
 	rm -f $(BIN)
+
+.PHONY:clean_log
+clean_log:
+	rm -rf ./tmp_files/*

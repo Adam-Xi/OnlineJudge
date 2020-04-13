@@ -21,8 +21,8 @@ int main()
                // }
                // std::string html;
                // html.assign(buf, strlen(buf));
+               
                // 使用模板技术填充 html 页面，用以替代上述固定方法填充, 如下：
-
                std::string html;
                OJ_View::RenderAllQuestionsHTML(&html, ques);
                // LOG(INFO, html);
