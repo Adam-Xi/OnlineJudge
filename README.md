@@ -17,6 +17,6 @@ export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/.../OnlineJudge/src/ThirdPartLibF
 # source ~/.bash_profile  # 需要进行更新环境配置文件
 ``` 
 <br />
-关于项目设计思路及不足之处，参见CSDN博客 []()
+关于项目设计思路及不足之处，参见CSDN博客 [OnlineJudge 项目简介](https://blog.csdn.net/qq_43746320/article/details/105524019)
 
 <hr />
